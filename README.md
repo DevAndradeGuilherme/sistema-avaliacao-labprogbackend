@@ -3,6 +3,9 @@
 ## Como rodar o projeto
 
 ```bash
+git clone https://github.com/DevAndradeGuilherme/sistema-avaliacao-labprogbackend.git
+cd .\sistema-avaliacao-labprogbackend\
+cd .\backend\
 python -m venv venv
 .\venv\Scripts\Activate.ps1
 python -m pip install django
