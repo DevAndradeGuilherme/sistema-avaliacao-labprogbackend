@@ -6,5 +6,5 @@ class Aluno(models.Model):
     ra = models.CharField(max_length=128, unique=True)
     curso = models.CharField(max_length=100)
     
-def __str__(self):
-    return self.nome
+    def __str__(self):
+        return self.nome

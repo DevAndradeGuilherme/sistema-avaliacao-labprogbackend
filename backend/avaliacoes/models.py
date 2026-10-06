@@ -24,5 +24,5 @@ class Avaliacao(models.Model):
     aluno = models.ForeignKey(Aluno,on_delete=models.CASCADE)
     disciplina = models.ForeignKey(Disciplina,on_delete=models.CASCADE)
 
-def __str__(self):
-    return f"{self.nota} - {self.comentario}"   
+    def __str__(self):
+        return f"{self.nota} - {self.comentario}"   
